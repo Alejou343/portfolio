@@ -11,4 +11,8 @@ export const social = [
     name: 'Instagram',
     designation: 'Intermediate',
     image: '/assets/Social/Social-instagram.png'},
+    {id: 4,
+    name: 'Curriculum Vitae',
+    designation: 'Intermediate',
+    image: '/assets/Social/Social-cv.png'},
   ]
