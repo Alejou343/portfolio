@@ -4,7 +4,7 @@ import { Button } from "../ui/moving-border";
 import ModalGeneral from '@/Containers/Modal';
 import Information from '@/components/Information';
 
-const index = () => {
+const Index = () => {
 
   const [openModal, setOpenModal] = React.useState<boolean>(false);
 
@@ -33,4 +33,4 @@ const index = () => {
   )
 };
 
-export default index;
+export default Index;
