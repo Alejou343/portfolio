@@ -46,7 +46,7 @@ const index = (props: ProjectProps) => {
                 <CardItem
                 translateZ={20}
                 as="button"
-                className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white bg-gradient-to-br from-cyan-900 via-blue-700 to-indigo-900"
+                className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white bg-gradient-to-br from-cyan-700 via-sky-500"
                 >
                 Try now →
                 </CardItem>

@@ -4,10 +4,10 @@ import Link from 'next/link'
 
 const index = () => {
   return (
-    <footer className="py-6 bg-gradient-to-br from-cyan-900 via-blue-700 to-indigo-900 w-full z-10 !absolute !bottom-0">
+    <footer className="py-6 w-full border-t-2 border-cyan-400 rounded-lg z-10 !absolute !bottom-0">
         <div className="container mx-auto">
             <div className="row text-center flex w-full justify-between">
-                <div className="mx-auto">
+                <div className="mx-auto rounded-full bg-white">
                     <Link href="https://github.com/Alejou343" target='blank'>
                         <Image src="/assets/Social/Social-github.png" alt="github" width={20} height={20} /> 
                     </Link>

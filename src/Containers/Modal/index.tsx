@@ -19,7 +19,7 @@ const Index = ({ children, state, setState}: ModalTypes) => {
                             className='close-modal-icon cursor-pointer'
                             onClick={() => setState(!state)}
                         > 
-                            <Image src='/assets/close-icon.svg' width={25} height={25} alt='cerrar' />
+                            <Image src='/assets/Social/close-icon.png' width={25} height={25} alt='cerrar' />
                         </button>
                         <div className='h-full w-full px-12'>
                             {children}

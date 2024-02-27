@@ -5,7 +5,7 @@ import { SparklesCore } from "../ui/sparkles";
 const index = () => {
   return (
     <div className="h-[40rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-      <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center bg-gradient-to-r from-cyan-500 to-gray-800 bg-clip-text text-transparent relative z-20">
+      <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center bg-gradient-to-r from-sky-500 to-cyan-700 bg-clip-text text-transparent relative z-20">
         Alejou343
       </h1>
       <div className="w-[40rem] h-40 relative">
