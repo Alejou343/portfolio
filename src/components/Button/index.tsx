@@ -14,7 +14,7 @@ const index = () => {
       <ModalGeneral state={openModal} setState={setOpenModal}>
         <Information />
       </ModalGeneral>}
-      <div className="flex justify-between mt-[5rem] gap-[23rem]">
+      <div className="flex justify-between mt-[5rem] gap-[22rem]">
         <h1 className="text-3xl">
           Materials Engineer
         </h1>

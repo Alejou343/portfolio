@@ -5,7 +5,7 @@ import Image from "next/image";
 const index = () => {
   return (
     <div className="About">
-      <div className="flex flex-col items-center justify-center px-[10vw]">
+      <div className="flex flex-col items-center justify-center px-[10rem]">
         <div className="rounded-full p-2 mb-4 bg-gradient-to-r from-cyan-700 to-sky-500">
           <Image
             width={200}
@@ -73,7 +73,7 @@ const index = () => {
             className="h-6 w-auto"
           />
         </Link>
-        <Link href="CVAlejandro.pdf" download>
+        <Link href="/docs/CV_Alejandro.pdf" download target="blank">
           <Image
             width={40}
             height={40}
