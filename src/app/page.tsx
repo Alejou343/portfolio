@@ -12,18 +12,18 @@ export default function Home() {
 
   return (
     <main className="flex flex-col justify-center items-center relative">
-      <div className="h-[100vh]">
+      <div className="h-[100vh] flex flex-col">
         <Title />
-        <div className="flex px-[15vw] justify-between w-full left-0 absolute top-[50vh] z-10">
-          <Social />
+        <div className="flex px-[15vw] md:flex-row flex-col md:justify-between justify-center w-full left-0 absolute top-[50vh]">
           <Habilities />
+          <Social />
         </div>
-        <Button />
+          <Button />
       </div>
       <Abstract />
       <div className='mb-[7rem] flex flex-col items-center'>
         <h1 className='text-center text-5xl font-bold bg-gradient-to-r from-sky-500 to-cyan-700 bg-clip-text text-transparent mb-[5rem]'> MY PROJECTS </h1>
-        <div className="grid md:grid-cols-3 grid-cols-1 gap-6 my-4" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <div className="grid md:grid-cols-3 grid-cols-1 gap-6 my-4">
           {projects?.map(project => 
           <Projects
           key={project.id} 

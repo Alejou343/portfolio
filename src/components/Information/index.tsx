@@ -5,7 +5,7 @@ import Image from "next/image";
 const index = () => {
   return (
     <div className="About">
-      <div className="flex flex-col items-center justify-center px-[10rem]">
+      <div className="flex flex-col items-center justify-center md:px-[10rem] px-0">
         <div className="rounded-full p-2 mb-4 bg-gradient-to-r from-cyan-700 to-sky-500">
           <Image
             width={200}
@@ -23,7 +23,7 @@ const index = () => {
           Materials Engineer | Web Developer | Data Analyst
         </p>
       </div>
-      <div className="mt-4 w-1/3 flex justify-between mx-auto">
+      <div className="mt-4 md:w-1/3 w-2/3 flex justify-between mx-auto">
         <p className="mb-2">alejandro.auribe1@gmail.com</p>
         <Image
           width={50}

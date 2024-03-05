@@ -14,8 +14,8 @@ const Index = () => {
       <ModalGeneral state={openModal} setState={setOpenModal}>
         <Information />
       </ModalGeneral>}
-      <div className="flex justify-between mt-[5rem] gap-[22rem]">
-        <h1 className="text-3xl">
+      <div className="flex md:justify-between justify-center md:mt-[5rem] gap-[22rem]">
+        <h1 className="text-3xl md:block hidden">
           Materials Engineer
         </h1>
         <Button
@@ -25,7 +25,7 @@ const Index = () => {
         >
             About Me
         </Button>
-        <h1 className="text-3xl">
+        <h1 className="text-3xl md:block hidden">
           Software developer
         </h1>
       </div>
