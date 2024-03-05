@@ -14,18 +14,20 @@ const Index = () => {
       <ModalGeneral state={openModal} setState={setOpenModal}>
         <Information />
       </ModalGeneral>}
-      <div className="flex md:justify-between justify-center md:mt-[5rem] gap-[22rem]">
-        <h1 className="text-3xl md:block hidden">
+      <div className="flex md:justify-between justify-center md:mt-[5rem] gap-[21rem]">
+        <h1 className="text-3xl md:block hidden font-bold">
           Materials Engineer
         </h1>
         <Button
         onClick={() => setOpenModal(true)}
         borderRadius="1.75rem"
-        className="bg-white dark:bg-slate-900 text-black dark:text-white mx-auto border-neutral-200 dark:border-slate-800 font-extrabold"
+        className="bg-white dark:bg-slate-900 text-black dark:text-white 
+        mx-auto border-sky-500 dark:border-slate-800 font-extrabold
+        bg-gradient-to-r from-sky-500 to-cyan-700 bg-clip-text"
         >
-            About Me
+          About Me
         </Button>
-        <h1 className="text-3xl md:block hidden">
+        <h1 className="text-3xl md:block hidden font-bold">
           Software developer
         </h1>
       </div>
