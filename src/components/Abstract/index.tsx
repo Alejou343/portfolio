@@ -11,10 +11,10 @@ expertise, and relentless pursuit of excellence".`
 
 const index = () => {
     return (
-        <div className='h-[100vh] flex flex-col justify-center items-center'>
+        <article className='h-[100vh] flex flex-col justify-center items-center'>
             <h1 className='text-center text-5xl font-bold bg-gradient-to-r from-sky-500 to-cyan-700 bg-clip-text text-transparent mb-[5rem]'>PROFESSIONAL PROFILE</h1>
             <TextGenerateEffect words={words} className='w-1/2 items-center mx-auto hidden lg:flex' />
-        </div>
+        </article>
     )
 
 }

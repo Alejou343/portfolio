@@ -4,9 +4,9 @@ import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 
 const index = () => {
   return (
-    <div className="flex">
+    <section className="flex">
       <AnimatedTooltip items={habilities} />
-    </div>
+    </section>
   )
 }
 

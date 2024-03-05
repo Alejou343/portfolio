@@ -9,6 +9,7 @@ import Projects from '@/components/Projects';
 import Habilities from "@/components/Habilities";
 
 export default function Home() {
+
   return (
     <main className="flex flex-col justify-center items-center relative">
       <div className="h-[100vh]">
@@ -22,7 +23,7 @@ export default function Home() {
       <Abstract />
       <div className='mb-[7rem] flex flex-col items-center'>
         <h1 className='text-center text-5xl font-bold bg-gradient-to-r from-sky-500 to-cyan-700 bg-clip-text text-transparent mb-[5rem]'> MY PROJECTS </h1>
-        <div className="grid md:grid-cols-3 grid-cols-1 gap-6 my-4">
+        <div className="grid md:grid-cols-3 grid-cols-1 gap-6 my-4" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
           {projects?.map(project => 
           <Projects
           key={project.id} 

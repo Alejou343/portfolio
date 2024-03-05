@@ -13,8 +13,8 @@ const Index = ({ children, state, setState}: ModalTypes) => {
     return (
         <>
             { state &&
-                <div className='modal-general z-50'>
-                    <main className='relative modal shadow-lg bg-auxiliar p-6'>
+                <section className='modal-general z-50'>
+                    <aside className='relative modal shadow-lg bg-auxiliar p-6'>
                         <button 
                             className='close-modal-icon cursor-pointer'
                             onClick={() => setState(!state)}
@@ -24,8 +24,8 @@ const Index = ({ children, state, setState}: ModalTypes) => {
                         <div className='h-full w-full px-12'>
                             {children}
                         </div>
-                    </main>
-                </div>
+                    </aside>
+                </section>
             }
         </>
     )

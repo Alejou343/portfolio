@@ -42,7 +42,7 @@ const index = (props: ProjectProps) => {
             />
         </CardItem>
         <div className="flex justify-center items-center mt-20">
-            <Link href={link} target="blank">
+            <Link href={link || '/'} target="blank">
                 <CardItem
                 translateZ={20}
                 as="button"

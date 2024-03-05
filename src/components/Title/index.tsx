@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import { SparklesCore } from "../ui/sparkles";
+import { SparklesCore } from "@/components/ui/sparkles";
 
 const index = () => {
   return (
-    <div className="h-[40rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+    <section className="h-[40rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
       <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center bg-gradient-to-r from-sky-500 to-cyan-700 bg-clip-text text-transparent relative z-20">
         Alejou343
       </h1>
@@ -23,7 +23,7 @@ const index = () => {
         />
         <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
       </div>
-    </div>
+    </section>
   )
 };
 

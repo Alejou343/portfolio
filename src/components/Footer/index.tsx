@@ -13,9 +13,9 @@ const index = () => {
                     </Link>
                 </div>
                 <div className="mx-auto">
-                    <Link href="mailto:alejandro.auribe1@gmail.com" target='blank'>
+                    <a href="mailto:alejandro.auribe1@gmail.com?Subject=Interesado%20en%20contactarme" target='blank'>
                         <Image src="/assets/Social/Social-gmail.png" alt="gmail" width={20} height={20} />
-                    </Link>
+                    </a>
                 </div>
                 <div className="mx-auto">
                     <Link href="whatsapp://send?phone=+573506217627" target='blank'>
