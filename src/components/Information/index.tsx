@@ -10,7 +10,7 @@ const index = () => {
           <Image
             width={200}
             height={200}
-            src="/assets/Social/Social-photoAAU.jpg"
+            src="/assets/Social/Social-photoAAU.jpeg"
             alt="Alejandro"
             className="rounded-full aspect-square  object-cover"
           />
