@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     title: "Cyberix App",
     description:
-      "Cyberix specializes in AI-powered chatbots that enhance customer interactions and automate business processes. Our solutions integrate seamlessly across platforms, providing real-time analytics for data-driven decisions. We offer scalable, cost-effective tools to transform business communication and optimize customer experiences.",
+      "Cyberix specializes in AI-powered chatbots that enhance customer interactions and automate business. Our solutions integrate seamlessly across platforms, providing real-time analytics for data-driven decisions. We offer scalable, cost-effective tools to transform business communication and optimize customer experiences.",
     link: "https://cyberix-app-1.onrender.com/swagger/",
     image: "/assets/Projects/Cyberix.jpeg",
   },
