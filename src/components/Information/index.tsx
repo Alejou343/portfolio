@@ -10,7 +10,7 @@ const index = () => {
           <Image
             width={200}
             height={200}
-            src="/assets/Social/Social-photoAAU.jpeg"
+            src="/assets/Social/Social-photoAAU.jpg"
             alt="Alejandro"
             className="rounded-full aspect-square  object-cover"
           />
@@ -35,7 +35,7 @@ const index = () => {
       </div>
       <div className="flex mt-4 justify-center">
         <Link
-          href="https://www.linkedin.com/in/alejandro-alvarez-65030a240"
+          href="https://www.linkedin.com/in/alejou343/"
           target="_blank"
           className="mr-4"
         >
