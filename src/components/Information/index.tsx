@@ -73,7 +73,7 @@ const index = () => {
             className="h-6 w-auto"
           />
         </Link>
-        <Link href="/docs/CV-Alejandro.pdf" download target="blank">
+        <Link href="/docs/CV_Alejandro.pdf" download target="blank">
           <Image
             width={40}
             height={40}

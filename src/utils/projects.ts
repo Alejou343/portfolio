@@ -17,6 +17,22 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Portal Administrativo Metroparques",
+    description:
+    "Metroparques Portal is a project designed as an administrative solution for public entities in Colombia. It ensures seamless operations for administrative staff, marketing teams, supervisors, and managers. The platform centralizes tasks, streamlines workflows, and facilitates effective communication for optimal efficiency.",
+    link: "https://tickets-front-ebon.vercel.app/",
+    image: "/assets/Projects/Admin-mp.png",
+  },
+  {
+    id: 4,
+    title: "Micrositio de Compras Metroparques",
+    description:
+    "Metroparques Microsite is a platform developed for public entities in Colombia, enabling users to purchase tickets and securely store purchase information in an interconnected system. The microsite ensures a smooth transaction process and reliable data management for enhanced user experience.",
+    link: "https://metroparques-aeroparques.pockipayments.com//",
+    image: "/assets/Projects/Microsite-mp.png",
+  },
+  {
+    id: 5,
     title: "Portal Inmobiliario",
     description:
     "Pocki Real Estate Web is a project developed as a service by CPocket virtual assistant. If you're looking to buy or sell a house, apartment, or any other type of property, you can submit that information to our database. Properties can then be showcased on WhatsApp through our Pocki Real Estate service.",
@@ -24,7 +40,7 @@ export const projects = [
     image: "/assets/Projects/Pockiinmobiliario.png",
   },
   {
-    id: 4,
+    id: 6,
     title: "Vote Choice",
     description:
       "Votechoice is an application that will assist you in tricky decision-making situations. Create an account, then set up a room where you present a decision to make along with its response options, share it with your friends, and they will help you choose. What are you waiting for? Give Votechoice a try!",

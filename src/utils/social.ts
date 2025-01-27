@@ -1,8 +1,8 @@
 export const social = [
     {id: 1,
     name: 'LinkedIn',
-    designation: '/in/alejandro-alvarez-65030a240/',
-    link: 'https://www.linkedin.com/in/alejandro-alvarez-65030a240/',
+    designation: '/in/alejou343/',
+    link: 'https://www.linkedin.com/in/alejou343/',
     image: '/assets/Social/Social-linkedin.png'
     },
     {id: 2,
@@ -18,9 +18,21 @@ export const social = [
     image: '/assets/Social/Social-instagram.png'
     },
     {id: 4,
+    name: 'Email',
+    designation: 'Alejandro Alvarez Uribe',
+    link: 'mailto:alejandro.auribe1@gmail.com?Subject=Interesado%20en%20contactarme',
+    image: '/assets/Social/Social-gmail.png'
+    },
+    {id: 5,
+    name: 'Whatsapp',
+    designation: '/+573506217627/',
+    link: 'https://wa.me/573506217627',
+    image: '/assets/Social/Social-whatsapp.png'
+    },
+    {id: 6,
     name: 'Curriculum Vitae',
     designation: 'Hoja de vida',
-    link: '/docs/CV-Alejandro.pdf',
+    link: '/docs/CV_Alejandro.pdf',
     image: '/assets/Social/Social-cv.png'
     },
   ]
