@@ -32,7 +32,7 @@ export const social = [
     {id: 6,
     name: 'Curriculum Vitae',
     designation: 'Hoja de vida',
-    link: '/docs/CV_Alejandro.pdf',
+    link: '/docs/Alejandro_Alvarez_AI_Engineer_Resume_English.pdf',
     image: '/assets/Social/Social-cv.png'
     },
   ]
