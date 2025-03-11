@@ -16,7 +16,7 @@ const Index = () => {
       </ModalGeneral>}
       <div className="flex md:justify-between justify-center md:mt-[5rem] gap-[21rem]">
         <h1 className="text-3xl md:block hidden font-bold">
-          Materials Engineer
+          AI Engineer
         </h1>
         <Button
         onClick={() => setOpenModal(true)}
@@ -28,7 +28,7 @@ const Index = () => {
           About Me
         </Button>
         <h1 className="text-3xl md:block hidden font-bold">
-          Software developer
+          Materials Engineer
         </h1>
       </div>
     </>
