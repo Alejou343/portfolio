@@ -13,7 +13,7 @@ export const projects = [
     description:
       "Google Rank AI is an innovative platform that leverages artificial intelligence to manage and optimize Google My Business listings. It helps businesses enhance their online visibility, streamline operations, and make data-driven decisions to improve rankings. With intuitive tools and advanced AI capabilities, Google Rank AI simplifies profile management and ensures your business stands out in search results.",
     link: "https://googlerankai.vercel.app/",
-    image: "/assets/Projects/Googlerankai.png",
+    image: "/assets/Projects/GoogleRankai.png",
   },
   {
     id: 3,
