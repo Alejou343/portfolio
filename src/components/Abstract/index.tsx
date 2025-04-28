@@ -2,7 +2,7 @@
 import React from 'react'
 import { TextGenerateEffect } from "../ui/text-generate-effect";
 
-const words = `"I am Alejandro Alvarez Uribe, an AI Engineer, Fullstack Developer, and Chatbot Architect passionate about building intelligent AI-driven solutions. With expertise in Generative AI, the MERN stack, and automation, I specialize in developing scalable applications, AI chatbots, and workflow optimization tools that enhance efficiency and user experience.  
+const words = `"I am Alejandro Alvarez Uribe, a Fullstack AI Engineer, Fullstack Developer, and Chatbot Architect passionate about building intelligent AI-driven solutions. With expertise in Generative AI, the MERN stack, and automation, I specialize in developing scalable applications, AI chatbots, and workflow optimization tools that enhance efficiency and user experience.  
 With a strong foundation in backend architecture, API development, and cloud technologies, I have successfully led projects that integrate AI into business operations, automating processes and improving decision-making. I thrive in dynamic environments, continuously expanding my knowledge to drive innovation and impact.  
 Explore my portfolio to see how AI, automation, and software development come together to shape the future of technology. 🚀"`
 

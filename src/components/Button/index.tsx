@@ -16,7 +16,7 @@ const Index = () => {
       </ModalGeneral>}
       <div className="flex md:justify-between justify-center md:mt-[5rem] gap-[21rem]">
         <h1 className="text-3xl md:block hidden font-bold">
-          AI Engineer
+          Fullstack AI Engineer
         </h1>
         <Button
         onClick={() => setOpenModal(true)}
